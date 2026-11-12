@@ -1,3 +1,51 @@
 body {
-  background-color: rgb(209, 234, 238);
+  background-color: rgb(255, 255, 255);
 }
+nav {border-radius: 20px;
+}
+
+header {text-align: center;
+}
+header :view-transition-image-pair {
+  display: block;
+  margin: 20px auto;
+}
+nav {text-align: left;
+}
+nav ul {list-style: none;
+padding-left: 20px;
+}
+nav li{margin-bottom: 10px;
+}
+
+nav { 
+  background-color: rgb(191, 223, 223);
+width: 100%
+padding 15px 0;
+margin-top: 5%;
+}
+
+h2{
+  text-align: center;
+}
+
+
+main figure img{
+  width: 100%;
+}
+
+#liste-photos {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#liste-photos h2{
+  flex-basis: 100%;
+}
+
+#liste-photos figure{
+  flex-basis: 0px;
+  flex-shrink: 1;
+  flex-grow: 1;
+}
+
